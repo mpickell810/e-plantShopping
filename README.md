@@ -1,6 +1,6 @@
-# ⚛️ Project Name
+# ⚛️ e-plantShopping
 
-A brief, one-to-two sentence description of what this React application does and who it is for.
+This is an e-commerce webapp for Paradise Nursery. It is a webapp that focuses on selling high quality plants to gardening and home plant enthusiasts.
 
 [Live Demo Link](https://your-demo-link.com) | [Report Bug](https://github.com)
 
