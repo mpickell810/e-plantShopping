@@ -263,6 +263,18 @@ function ProductList({ onHomeClick }) {
         }));
       };
 
+    const handleRemoveFromCart = (product) => {
+        dispatch(removeItem(item.name));
+
+        setAddedToCart((prevState) => {
+            const newState = { ...prevState };
+            delete newState[product.name];
+            return newState;
+        })
+    }
+
+    const calculateTotalQuantity = () => { return CartItem ? CartItem.reduce((total, item) => total + item.quantity, 0) : 0; };    
+
     return (
         <div>
             <div className="navbar" style={styleObj}>
